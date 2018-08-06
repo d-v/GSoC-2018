@@ -1,4 +1,4 @@
-This is the list of the PRs I made during GSoC 2018.
+This is the list of the code I contributed during GSoC 2018.
 
 [ArduPilot main repo](https://github.com/ArduPilot/ardupilot):
 ==============================================================
@@ -17,7 +17,7 @@ This is the list of the PRs I made during GSoC 2018.
         8. [AP_BoardConfig: Added CANManager and appropriate headers for SITL](https://github.com/ArduPilot/ardupilot/pull/8509/commits/fd216b4d7f547c8ad77b94f6318b7d5704bc0728)
 
 [OpenMotorDrive framework fork](https://github.com/d-v/framework):
-==============================================================
+==================================================================
 
 - [Updated bootloader Makefile to allow debugging through gdb](https://github.com/d-v/framework/commit/57842c113edcfc2e7f55b12ca909b1b8cfdb9b03)
 - [Updated Makefile to use appropriate modules and be possible to debug through gdb](https://github.com/d-v/framework/commit/3b218a79edf5c62cfe4d3e1caecd7e01e8a7c493)
@@ -34,3 +34,26 @@ This is the list of the PRs I made during GSoC 2018.
 - [Added Python test script](https://github.com/d-v/framework/commit/d7d83bb52ea6c2b925af7ac3737068cf49bbfb5e)
 - [Updated ChibiOS to support interrupt exceptions](https://github.com/d-v/framework/commit/797d3e16e3ec7d2d03a83c91556ded4276bbf677)
 - [Updated dsdl that supports Tom's tunnel messages](https://github.com/d-v/framework/commit/c108472de834e82d5e9f229de7d8414c1920ba03)
+
+[ArduPilot wiki](https://github.com/ArduPilot/ardupilot_wiki):
+==============================================================
+
+- Added instructions to enable Mavlink over UAVCAN
+    - https://github.com/ArduPilot/ardupilot_wiki/pull/1360
+    - Ready to be merged
+    - List of commits:
+        1. [Added instructions to enable Mavlink over UAVCAN](https://github.com/ArduPilot/ardupilot_wiki/pull/1360/commits/45dc598b38c58f8296bc65e2bdf0536f8b79952a)
+- Added information on GDB debugging through JTAG
+    - https://github.com/ArduPilot/ardupilot_wiki/pull/1361
+    - Ready to be merged
+    - List of commits:
+        1. [added instructions for st-link debugging on pixracer](https://github.com/ArduPilot/ardupilot_wiki/pull/1361/commits/8e70b3f44ea088bc82377b12d1e1bd22add9ed1f)
+        2. [Updated to specify required version of OpenOCD and added information about the other version of ST-Link debugger that exists](https://github.com/ArduPilot/ardupilot_wiki/pull/1361/commits/2415d2aba3ccf061a8840dc7b290352634d73e1e)
+
+Progress updates posted on ArduPilot Discourse:
+===============================================
+
+- [GSoC 2018: UAVCAN over SITL](https://discuss.ardupilot.org/t/gsoc-2018-uavcan-over-sitl/29887)
+- [GSoC 2018: USART UAVCAN Bridge (wip)](https://discuss.ardupilot.org/t/gsoc-2018-usart-uavcan-bridge-wip/30519)
+- [USART-Tunnel Bridge Firmware](https://discuss.ardupilot.org/t/usart-tunnel-bridge-firmware/30718)
+- [GSoC 2018: USART-UAVCAN bridge completed](https://discuss.ardupilot.org/t/gsoc-2018-usart-uavcan-bridge-completed/31449)
